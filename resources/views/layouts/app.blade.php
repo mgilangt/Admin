@@ -29,11 +29,10 @@
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <!--end::Global Stylesheets Bundle-->
 
-    <!-- begin::Datatable -->
-    <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-    <script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
-    <!-- end::Datatable -->
-
+    {{-- Jquery --}}
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+        crossorigin="anonymous"></script>
+    {{-- END Jquery --}}
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -76,6 +75,7 @@
     <script src="assets/js/custom/utilities/modals/users-search.js"></script>
     <!--end::Page Custom Javascript-->
     <!--end::Javascript-->
+
 </body>
 
 </html>
